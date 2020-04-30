@@ -16,7 +16,11 @@ end
 
 def using_shift(array)
   array.shift
+  return array
 end
 
 def shift_with_arg(array)
+  new_array = array.shift(2)
+  return new_array
+end
   
